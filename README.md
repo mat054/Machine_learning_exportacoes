@@ -2,14 +2,17 @@
 ## Mini Trabalho 2 - Aprendizado de Máquina
 
 ### Equipe
-- [Nome do Membro 1]
-- [Nome do Membro 2]
-- [Nome do Membro 3]
-- [Nome do Membro 4]
+- Daniela Soares de Oliveira - 180015222
+- Gabriel Freitas Balbino - 180075462
+- Giovanni Alvissus Camargo Giampauli - 211043647
+- Mateus de Castro Santos - 222015195
+- Pablo Santos Costa - 180128817
+- Pedro Lucas Dourado Santos - 211039680
 
 ## Descrição do Dataset
 
-Este projeto apresenta uma análise abrangente do consumo global de especiarias, compilada utilizando dados da FAOSTAT. O consumo de especiarias é estimado aplicando a fórmula:
+
+Este projeto apresenta uma análise abrangente do consumo global de especiarias, compilada utilizando dados da FAOSTAT, coletados do Kaggle [aqui](https://www.kaggle.com/datasets/harishthakur995/global-spice-consumption). O consumo de especiarias é estimado aplicando a fórmula:
 
 ```
 Consumo = Produção + Importação - Exportação
