@@ -11,7 +11,7 @@
 - Pedro Lucas Dourado Santos - 211039680
 
 ## Descrição do Trabalho Realizado
-Nessa entrega, os membros do grupo realizaram os primeiros testes em modelos que mais se adequam ao nosso objetivo de prever o consumo de uma especiaria, dado um país em relação ao tempo. Com isso podemos analisar e escolher o modelo com um melhor desempenho dado as métricas (MAE - Mean Absolute Error, MSE - Mean Squared Error e R² - Coeficiente de Determinação), tempo de inferência, facilidade na manutenção e maior interpretabilidade dos resultados.
+Nessa entrega, os membros do grupo realizaram os primeiros testes em modelos que mais se adequam ao nosso objetivo de prever o consumo de uma especiaria, dado um país em relação ao tempo, mas também identificar outros padrões que podem influenciar na exportação, importação e produção de especiarias. Com isso podemos analisar e escolher o modelo com um melhor desempenho dado as métricas (MAE - Mean Absolute Error, MSE - Mean Squared Error e R² - Coeficiente de Determinação), tempo de inferência, facilidade na manutenção e maior interpretabilidade dos resultados.
 
 ### Nossos objetivos com a ecolha do modelo
 Depois de entender nosso problema, seguimos os seguintes passos:
@@ -67,6 +67,12 @@ Os resultados obtidos dos modelos são os seguintes:
   - R²: 0.188
 
 Esses resultados destacam a eficácia dos modelos de Árvore de Decisão e Random Forest em nossa análise.
+
+### Decisão Final
+
+Após a análise dos resultados, decidimos utilizar o modelo Random Forest para o nosso modelo final. Este modelo apresentou as melhores métricas de desempenho, com o menor MAE e MSE, além de um R² próximo de 1, indicando uma excelente capacidade de previsão e ajuste aos dados. A robustez do Random Forest em lidar com variáveis complexas e sua capacidade de evitar overfitting foram fatores determinantes para essa escolha.
+
+Optamos por testar cinco modelos diferentes para garantir uma análise abrangente e identificar o modelo que melhor se adequa ao nosso problema. A Regressão Linear foi escolhida por sua simplicidade e interpretabilidade, servindo como um bom ponto de partida. A Árvore de Decisão e o Random Forest foram selecionados por sua capacidade de capturar relações não lineares nos dados. O SVM foi incluído por sua eficácia em problemas de alta dimensionalidade (mas ao final não foi utilizada pois ela só aceita uma variável de saída (y), ou seja, uma array unidimensional (1D) — como [1, 2, 3, ...] — e não uma matriz com várias colunas), e a Rede Neural (MLP) foi testada devido à sua flexibilidade e capacidade de modelar padrões complexos. Essa diversidade de modelos nos permitiu explorar diferentes abordagens e selecionar a mais eficaz para nosso objetivo.
 
 
 
