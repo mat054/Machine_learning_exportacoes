@@ -1,6 +1,6 @@
-# AQUISIÇÃO DE DADOS: CONSUMO GLOBAL DE ESPECIARIAS
+# Teste de Modelos de Aprendizado de Máquina
 
-## Mini Trabalho 4 - Aprendizado de Máquina
+## Mini Trabalho 5 - Aprendizado de Máquina
 
 ### Equipe
 - Daniela Soares de Oliveira - 180015222
@@ -72,7 +72,7 @@ Esses resultados destacam a eficácia dos modelos de Árvore de Decisão e Rando
 
 Após a análise dos resultados, decidimos utilizar o modelo Random Forest para o nosso modelo final. Este modelo apresentou as melhores métricas de desempenho, com o menor MAE e MSE, além de um R² próximo de 1, indicando uma excelente capacidade de previsão e ajuste aos dados. A robustez do Random Forest em lidar com variáveis complexas e sua capacidade de evitar overfitting foram fatores determinantes para essa escolha.
 
-Optamos por testar cinco modelos diferentes para garantir uma análise abrangente e identificar o modelo que melhor se adequa ao nosso problema. A Regressão Linear foi escolhida por sua simplicidade e interpretabilidade, servindo como um bom ponto de partida. A Árvore de Decisão e o Random Forest foram selecionados por sua capacidade de capturar relações não lineares nos dados. O SVM foi incluído por sua eficácia em problemas de alta dimensionalidade (mas ao final não foi utilizada pois ela só aceita uma variável de saída (y), ou seja, uma array unidimensional (1D) — como [1, 2, 3, ...] — e não uma matriz com várias colunas), e a Rede Neural (MLP) foi testada devido à sua flexibilidade e capacidade de modelar padrões complexos. Essa diversidade de modelos nos permitiu explorar diferentes abordagens e selecionar a mais eficaz para nosso objetivo.
+Optamos por testar cinco modelos diferentes para garantir uma análise abrangente e identificar o modelo que melhor se adequa ao nosso problema. A Regressão Linear foi escolhida por sua simplicidade e interpretabilidade, servindo como um bom ponto de partida. A Árvore de Decisão e o Random Forest foram selecionados por sua capacidade de capturar relações não lineares nos dados. O SVM foi incluído por sua eficácia em problemas de alta dimensionalidade (mas ao final não foi utilizada pois ela só aceita uma variável de saída (y), ou seja, uma array unidimensional (1D) — como [1, 2, 3, ...] — e não uma matriz com várias colunas), e a Rede Neural (MLP) foi testada devido à sua flexibilidade e capacidade de modelar padrões complexos. Essa diversidade de modelos nos permitiu explorar diferentes abordagens e selecionar a mais eficaz para nosso objetivo. 
 
 
 
