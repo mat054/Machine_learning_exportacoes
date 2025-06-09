@@ -1,0 +1,53 @@
+### Treinando para dados_Cinnamon and cinnamon-tree flowers, raw.csv ###
+Melhores hiperparâmetros: {'max_depth': None, 'min_samples_split': 2, 'n_estimators': 200}
+R² no teste: 0.9448106453800744
+MAE: 182.68923456989253
+MSE: 437570.06198830606
+
+### Treinando para dados_Ginger, raw.csv ###
+Melhores hiperparâmetros: {'max_depth': None, 'min_samples_split': 2, 'n_estimators': 100}
+R² no teste: 0.9592683272601221
+MAE: 570.5602137430168
+MSE: 4759948.716308412
+
+### Treinando para dados_Chillies and peppers, dry (Capsicum spp., Pimenta spp.), raw.csv ###
+Melhores hiperparâmetros: {'max_depth': None, 'min_samples_split': 2, 'n_estimators': 200}
+R² no teste: 0.9486404806066241
+MAE: 625.3008235789475
+MSE: 6851518.459208093
+
+### Treinando para dados_Vanilla, raw.csv ###
+Melhores hiperparâmetros: {'max_depth': None, 'min_samples_split': 2, 'n_estimators': 200}
+R² no teste: 0.9277704828251055
+MAE: 10.416954502369663
+MSE: 1594.7418538972072
+
+### Treinando para dados_Cloves (whole stems), raw.csv ###
+Melhores hiperparâmetros: {'max_depth': None, 'min_samples_split': 2, 'n_estimators': 100}
+R² no teste: 0.7369514875185742
+MAE: 161.74695
+MSE: 985902.9184451154
+
+### Treinando para dados_Pepper (Piper spp.), raw.csv ###
+Melhores hiperparâmetros: {'max_depth': None, 'min_samples_split': 2, 'n_estimators': 100}
+R² no teste: 0.9803375180114591
+MAE: 350.31660672514636
+MSE: 1018752.7083674298
+
+### Treinando para dados_Nutmeg, mace, cardamoms, raw.csv ###
+Melhores hiperparâmetros: {'max_depth': None, 'min_samples_split': 2, 'n_estimators': 100}
+R² no teste: 0.9086251571222768
+MAE: 115.73776265060243
+MSE: 205223.99371424687
+
+### Treinando para dados_Chillies and peppers, green (Capsicum spp. and Pimenta spp.).csv ###
+Melhores hiperparâmetros: {'max_depth': None, 'min_samples_split': 2, 'n_estimators': 200}
+R² no teste: 0.9842701646480164
+MAE: 2197.462495525064
+MSE: 84336825.65967649
+
+### Treinando para dados_Anise, badian, coriander, cumin, caraway, fennel and juniper berries, raw.csv ###
+Melhores hiperparâmetros: {'max_depth': None, 'min_samples_split': 2, 'n_estimators': 200}
+R² no teste: 0.861702832135625
+MAE: 570.9198494731297
+MSE: 7449609.271560364

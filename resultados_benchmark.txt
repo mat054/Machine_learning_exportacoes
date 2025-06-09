@@ -1,0 +1,754 @@
+Especiaria: dados_Cinnamon and cinnamon-tree flowers, raw.csv para Import
+🔹 Regressão Linear
+MAE: 463.4913825245967
+MSE: 1931784.0747859704
+R²: 0.7563500668486387
+----------------------------------------
+Especiaria: dados_Cinnamon and cinnamon-tree flowers, raw.csv para Import
+🔹 Árvore de Decisão
+MAE: 211.75545161290324
+MSE: 699376.5214044086
+R²: 0.9117898087514282
+----------------------------------------
+Especiaria: dados_Cinnamon and cinnamon-tree flowers, raw.csv para Import
+🔹 Random Forest
+MAE: 185.581069892473
+MSE: 465736.9954307024
+R²: 0.9412580374360012
+----------------------------------------
+Especiaria: dados_Cinnamon and cinnamon-tree flowers, raw.csv para Import
+🔹 SVM
+MAE: 870.4114855089587
+MSE: 8583261.595453413
+R²: -0.08258016061374551
+----------------------------------------
+Especiaria: dados_Cinnamon and cinnamon-tree flowers, raw.csv para Export
+🔹 Regressão Linear
+MAE: 388.9384093080462
+MSE: 4756915.901585712
+R²: 0.9033430290399485
+----------------------------------------
+Especiaria: dados_Cinnamon and cinnamon-tree flowers, raw.csv para Export
+🔹 Árvore de Decisão
+MAE: 184.1217419354839
+MSE: 1371917.692581076
+R²: 0.9721236592542689
+----------------------------------------
+Especiaria: dados_Cinnamon and cinnamon-tree flowers, raw.csv para Export
+🔹 Random Forest
+MAE: 168.4480570967742
+MSE: 1422833.4713727222
+R²: 0.9710890887354939
+----------------------------------------
+Especiaria: dados_Cinnamon and cinnamon-tree flowers, raw.csv para Export
+🔹 SVM
+MAE: 1160.054270618601
+MSE: 50510691.36482427
+R²: -0.026339445436583064
+----------------------------------------
+Especiaria: dados_Cinnamon and cinnamon-tree flowers, raw.csv para Production
+🔹 Regressão Linear
+MAE: 523.756640445904
+MSE: 5719150.258383211
+R²: 0.9157279467130925
+----------------------------------------
+Especiaria: dados_Cinnamon and cinnamon-tree flowers, raw.csv para Production
+🔹 Árvore de Decisão
+MAE: 103.50918279569893
+MSE: 884552.0953025806
+R²: 0.9869660669955089
+----------------------------------------
+Especiaria: dados_Cinnamon and cinnamon-tree flowers, raw.csv para Production
+🔹 Random Forest
+MAE: 147.89774354838724
+MSE: 1387778.191972109
+R²: 0.9795509975327448
+----------------------------------------
+Especiaria: dados_Cinnamon and cinnamon-tree flowers, raw.csv para Production
+🔹 SVM
+MAE: 1209.9487050039284
+MSE: 69277882.16972193
+R²: -0.02081412693314122
+----------------------------------------
+Especiaria: dados_Ginger, raw.csv para Import
+🔹 Regressão Linear
+MAE: 2621.45264296348
+MSE: 33819165.320111066
+R²: 0.7106037782644591
+----------------------------------------
+Especiaria: dados_Ginger, raw.csv para Import
+🔹 Árvore de Decisão
+MAE: 704.936905027933
+MSE: 9610095.843201231
+R²: 0.9177648117209734
+----------------------------------------
+Especiaria: dados_Ginger, raw.csv para Import
+🔹 Random Forest
+MAE: 582.3777713966481
+MSE: 4995275.976412024
+R²: 0.9572545927607415
+----------------------------------------
+Especiaria: dados_Ginger, raw.csv para Import
+🔹 SVM
+MAE: 2787.0973861682764
+MSE: 124228175.62571186
+R²: -0.06304115784316355
+----------------------------------------
+Especiaria: dados_Ginger, raw.csv para Export
+🔹 Regressão Linear
+MAE: 4865.94885332522
+MSE: 550862101.5648868
+R²: 0.7934721582188773
+----------------------------------------
+Especiaria: dados_Ginger, raw.csv para Export
+🔹 Árvore de Decisão
+MAE: 1008.3719664804465
+MSE: 32465347.834912274
+R²: 0.9878281729638501
+----------------------------------------
+Especiaria: dados_Ginger, raw.csv para Export
+🔹 Random Forest
+MAE: 1458.489222011171
+MSE: 102030894.99912828
+R²: 0.9617468319579356
+----------------------------------------
+Especiaria: dados_Ginger, raw.csv para Export
+🔹 SVM
+MAE: 7556.7159734086745
+MSE: 2724081519.4775844
+R²: -0.021305832177089146
+----------------------------------------
+Especiaria: dados_Ginger, raw.csv para Production
+🔹 Regressão Linear
+MAE: 12983.077266485412
+MSE: 1961174415.129222
+R²: 0.7446238460125645
+----------------------------------------
+Especiaria: dados_Ginger, raw.csv para Production
+🔹 Árvore de Decisão
+MAE: 3433.7198100558653
+MSE: 613542894.8099778
+R²: 0.9201069402220577
+----------------------------------------
+Especiaria: dados_Ginger, raw.csv para Production
+🔹 Random Forest
+MAE: 2836.382310726256
+MSE: 419610892.8486806
+R²: 0.9453599765730835
+----------------------------------------
+Especiaria: dados_Ginger, raw.csv para Production
+🔹 SVM
+MAE: 17904.62906427145
+MSE: 7999552590.289525
+R²: -0.04166919493173182
+----------------------------------------
+Especiaria: dados_Chillies and peppers, dry (Capsicum spp., Pimenta spp.), raw.csv para Import
+🔹 Regressão Linear
+MAE: 2348.762676107597
+MSE: 44513803.2613187
+R²: 0.6663210417538799
+----------------------------------------
+Especiaria: dados_Chillies and peppers, dry (Capsicum spp., Pimenta spp.), raw.csv para Import
+🔹 Árvore de Decisão
+MAE: 780.727547368421
+MSE: 15044208.96776158
+R²: 0.8872274304100676
+----------------------------------------
+Especiaria: dados_Chillies and peppers, dry (Capsicum spp., Pimenta spp.), raw.csv para Import
+🔹 Random Forest
+MAE: 622.8810837894739
+MSE: 6749947.310247281
+R²: 0.9494018659003978
+----------------------------------------
+Especiaria: dados_Chillies and peppers, dry (Capsicum spp., Pimenta spp.), raw.csv para Import
+🔹 SVM
+MAE: 3113.716098526762
+MSE: 142469596.01503316
+R²: -0.06796325851923046
+----------------------------------------
+Especiaria: dados_Chillies and peppers, dry (Capsicum spp., Pimenta spp.), raw.csv para Export
+🔹 Regressão Linear
+MAE: 2362.3395459569906
+MSE: 104477011.15238588
+R²: 0.743156570249333
+----------------------------------------
+Especiaria: dados_Chillies and peppers, dry (Capsicum spp., Pimenta spp.), raw.csv para Export
+🔹 Árvore de Decisão
+MAE: 609.437852631579
+MSE: 15033970.3372779
+R²: 0.9630408980731253
+----------------------------------------
+Especiaria: dados_Chillies and peppers, dry (Capsicum spp., Pimenta spp.), raw.csv para Export
+🔹 Random Forest
+MAE: 679.8034374736845
+MSE: 19016164.68725756
+R²: 0.9532511802825706
+----------------------------------------
+Especiaria: dados_Chillies and peppers, dry (Capsicum spp., Pimenta spp.), raw.csv para Export
+🔹 SVM
+MAE: 2747.782987944217
+MSE: 414191185.2278978
+R²: -0.018236293448921748
+----------------------------------------
+Especiaria: dados_Chillies and peppers, dry (Capsicum spp., Pimenta spp.), raw.csv para Production
+🔹 Regressão Linear
+MAE: 7277.268525250499
+MSE: 876388496.1821189
+R²: 0.8881031101984509
+----------------------------------------
+Especiaria: dados_Chillies and peppers, dry (Capsicum spp., Pimenta spp.), raw.csv para Production
+🔹 Árvore de Decisão
+MAE: 2276.2273684210522
+MSE: 563710164.8895451
+R²: 0.9280257391836524
+----------------------------------------
+Especiaria: dados_Chillies and peppers, dry (Capsicum spp., Pimenta spp.), raw.csv para Production
+🔹 Random Forest
+MAE: 2350.1098987368414
+MSE: 458804838.8407915
+R²: 0.9414200041239279
+----------------------------------------
+Especiaria: dados_Chillies and peppers, dry (Capsicum spp., Pimenta spp.), raw.csv para Production
+🔹 SVM
+MAE: 16529.772698320732
+MSE: 8104775416.246818
+R²: -0.03481408709593081
+----------------------------------------
+Especiaria: dados_Vanilla, raw.csv para Import
+🔹 Regressão Linear
+MAE: 20.56945655042119
+MSE: 2562.404482749846
+R²: 0.8839428223799936
+----------------------------------------
+Especiaria: dados_Vanilla, raw.csv para Import
+🔹 Árvore de Decisão
+MAE: 12.499135071090048
+MSE: 2395.522043957346
+R²: 0.8915013108899014
+----------------------------------------
+Especiaria: dados_Vanilla, raw.csv para Import
+🔹 Random Forest
+MAE: 10.228957582938385
+MSE: 1536.6493732332683
+R²: 0.9304016245485099
+----------------------------------------
+Especiaria: dados_Vanilla, raw.csv para Import
+🔹 SVM
+MAE: 30.03631961062859
+MSE: 21942.23704224657
+R²: 0.006185745093819306
+----------------------------------------
+Especiaria: dados_Vanilla, raw.csv para Export
+🔹 Regressão Linear
+MAE: 22.185695751901644
+MSE: 8069.347014460809
+R²: 0.8291700909754385
+----------------------------------------
+Especiaria: dados_Vanilla, raw.csv para Export
+🔹 Árvore de Decisão
+MAE: 16.607203791469193
+MSE: 8338.078407109006
+R²: 0.8234809863581918
+----------------------------------------
+Especiaria: dados_Vanilla, raw.csv para Export
+🔹 Random Forest
+MAE: 14.73083992890995
+MSE: 6729.06313595814
+R²: 0.8575442050916594
+----------------------------------------
+Especiaria: dados_Vanilla, raw.csv para Export
+🔹 SVM
+MAE: 37.07905467424835
+MSE: 47509.47357914559
+R²: -0.005786346130085329
+----------------------------------------
+Especiaria: dados_Vanilla, raw.csv para Production
+🔹 Regressão Linear
+MAE: 22.498015599383567
+MSE: 10329.60473580041
+R²: 0.9095267378515223
+----------------------------------------
+Especiaria: dados_Vanilla, raw.csv para Production
+🔹 Árvore de Decisão
+MAE: 7.199454976303316
+MSE: 2456.846304739336
+R²: 0.9784813741210421
+----------------------------------------
+Especiaria: dados_Vanilla, raw.csv para Production
+🔹 Random Forest
+MAE: 7.361411374407591
+MSE: 2918.8282563868243
+R²: 0.9744350417309547
+----------------------------------------
+Especiaria: dados_Vanilla, raw.csv para Production
+🔹 SVM
+MAE: 57.09363079358502
+MSE: 115884.07945705803
+R²: -0.01498662995462885
+----------------------------------------
+Especiaria: dados_Cloves (whole stems), raw.csv para Import
+🔹 Regressão Linear
+MAE: 218.43242893431463
+MSE: 1061478.7844645807
+R²: 0.7167871095012445
+----------------------------------------
+Especiaria: dados_Cloves (whole stems), raw.csv para Import
+🔹 Árvore de Decisão
+MAE: 208.67224604966142
+MSE: 1820280.701361964
+R²: 0.514331358763934
+----------------------------------------
+Especiaria: dados_Cloves (whole stems), raw.csv para Import
+🔹 Random Forest
+MAE: 157.85595790067717
+MSE: 981562.7388386654
+R²: 0.7381094897599911
+----------------------------------------
+Especiaria: dados_Cloves (whole stems), raw.csv para Import
+🔹 SVM
+MAE: 383.4322208751696
+MSE: 3880195.617357258
+R²: -0.03527402768267107
+----------------------------------------
+Especiaria: dados_Cloves (whole stems), raw.csv para Export
+🔹 Regressão Linear
+MAE: 167.3008422760121
+MSE: 677717.940691097
+R²: 0.8019540401848329
+----------------------------------------
+Especiaria: dados_Cloves (whole stems), raw.csv para Export
+🔹 Árvore de Decisão
+MAE: 130.49475169300226
+MSE: 651045.4609827314
+R²: 0.8097483990579463
+----------------------------------------
+Especiaria: dados_Cloves (whole stems), raw.csv para Export
+🔹 Random Forest
+MAE: 121.58612065462748
+MSE: 510509.6131038997
+R²: 0.8508164529052733
+----------------------------------------
+Especiaria: dados_Cloves (whole stems), raw.csv para Export
+🔹 SVM
+MAE: 313.3214992745188
+MSE: 3512046.935831352
+R²: -0.026307058676001915
+----------------------------------------
+Especiaria: dados_Cloves (whole stems), raw.csv para Production
+🔹 Regressão Linear
+MAE: 415.6045836018573
+MSE: 5064640.093892196
+R²: 0.9127917774517016
+----------------------------------------
+Especiaria: dados_Cloves (whole stems), raw.csv para Production
+🔹 Árvore de Decisão
+MAE: 101.75424379232506
+MSE: 1311705.900626862
+R²: 0.9774136882425789
+----------------------------------------
+Especiaria: dados_Cloves (whole stems), raw.csv para Production
+🔹 Random Forest
+MAE: 96.07975812641082
+MSE: 1109063.9737010647
+R²: 0.9809029869752318
+----------------------------------------
+Especiaria: dados_Cloves (whole stems), raw.csv para Production
+🔹 SVM
+MAE: 758.4580952919475
+MSE: 58632987.779710084
+R²: -0.009603555666488184
+----------------------------------------
+Especiaria: dados_Pepper (Piper spp.), raw.csv para Import
+🔹 Regressão Linear
+MAE: 766.5837063117062
+MSE: 3938811.072140034
+R²: 0.9239788016010981
+----------------------------------------
+Especiaria: dados_Pepper (Piper spp.), raw.csv para Import
+🔹 Árvore de Decisão
+MAE: 488.84999025341125
+MSE: 2701429.62830653
+R²: 0.9478609372288113
+----------------------------------------
+Especiaria: dados_Pepper (Piper spp.), raw.csv para Import
+🔹 Random Forest
+MAE: 348.4902905458091
+MSE: 986993.9432055913
+R²: 0.9809504794719235
+----------------------------------------
+Especiaria: dados_Pepper (Piper spp.), raw.csv para Import
+🔹 SVM
+MAE: 2013.6655423398968
+MSE: 55353436.86268092
+R²: -0.06835147173297784
+----------------------------------------
+Especiaria: dados_Pepper (Piper spp.), raw.csv para Export
+🔹 Regressão Linear
+MAE: 804.5062976252489
+MSE: 8177931.563567723
+R²: 0.9389954734157558
+----------------------------------------
+Especiaria: dados_Pepper (Piper spp.), raw.csv para Export
+🔹 Árvore de Decisão
+MAE: 524.7112962962964
+MSE: 10828366.221310625
+R²: 0.9192241522349339
+----------------------------------------
+Especiaria: dados_Pepper (Piper spp.), raw.csv para Export
+🔹 Random Forest
+MAE: 400.7578447368422
+MSE: 5607672.481718078
+R²: 0.9581687126717087
+----------------------------------------
+Especiaria: dados_Pepper (Piper spp.), raw.csv para Export
+🔹 SVM
+MAE: 1849.6414985590304
+MSE: 137408933.03508517
+R²: -0.025022873215935215
+----------------------------------------
+Especiaria: dados_Pepper (Piper spp.), raw.csv para Production
+🔹 Regressão Linear
+MAE: 1400.4580712775323
+MSE: 14892803.38554818
+R²: 0.9253009559267704
+----------------------------------------
+Especiaria: dados_Pepper (Piper spp.), raw.csv para Production
+🔹 Árvore de Decisão
+MAE: 409.591335282651
+MSE: 9612938.35777378
+R²: 0.9517836039682497
+----------------------------------------
+Especiaria: dados_Pepper (Piper spp.), raw.csv para Production
+🔹 Random Forest
+MAE: 338.49693996101337
+MSE: 5782343.503522639
+R²: 0.970997029838228
+----------------------------------------
+Especiaria: dados_Pepper (Piper spp.), raw.csv para Production
+🔹 SVM
+MAE: 2619.94188310276
+MSE: 206152112.19631383
+R²: -0.03401390027650497
+----------------------------------------
+Especiaria: dados_Nutmeg, mace, cardamoms, raw.csv para Import
+🔹 Regressão Linear
+MAE: 338.59870200584857
+MSE: 1121211.17631022
+R²: 0.500786953738239
+----------------------------------------
+Especiaria: dados_Nutmeg, mace, cardamoms, raw.csv para Import
+🔹 Árvore de Decisão
+MAE: 127.04565169769988
+MSE: 282716.251841621
+R²: 0.8741221597754454
+----------------------------------------
+Especiaria: dados_Nutmeg, mace, cardamoms, raw.csv para Import
+🔹 Random Forest
+MAE: 122.13476067907996
+MSE: 275995.41223728674
+R²: 0.8771145762650471
+----------------------------------------
+Especiaria: dados_Nutmeg, mace, cardamoms, raw.csv para Import
+🔹 SVM
+MAE: 416.18279196160603
+MSE: 2397585.8300778554
+R²: -0.06751176869827735
+----------------------------------------
+Especiaria: dados_Nutmeg, mace, cardamoms, raw.csv para Export
+🔹 Regressão Linear
+MAE: 225.5662935454027
+MSE: 746174.9669708636
+R²: 0.9353329489253903
+----------------------------------------
+Especiaria: dados_Nutmeg, mace, cardamoms, raw.csv para Export
+🔹 Árvore de Decisão
+MAE: 96.56760131434832
+MSE: 364424.8031292443
+R²: 0.9684172233055715
+----------------------------------------
+Especiaria: dados_Nutmeg, mace, cardamoms, raw.csv para Export
+🔹 Random Forest
+MAE: 83.00783570646205
+MSE: 199206.02708701426
+R²: 0.9827358637072731
+----------------------------------------
+Especiaria: dados_Nutmeg, mace, cardamoms, raw.csv para Export
+🔹 SVM
+MAE: 515.2821245048074
+MSE: 11785490.552470615
+R²: -0.02138634131598538
+----------------------------------------
+Especiaria: dados_Nutmeg, mace, cardamoms, raw.csv para Production
+🔹 Regressão Linear
+MAE: 282.2707904195782
+MSE: 2707507.9905994544
+R²: 0.8870702033717399
+----------------------------------------
+Especiaria: dados_Nutmeg, mace, cardamoms, raw.csv para Production
+🔹 Árvore de Decisão
+MAE: 138.71461117196057
+MSE: 1725940.3637947426
+R²: 0.9280112579713231
+----------------------------------------
+Especiaria: dados_Nutmeg, mace, cardamoms, raw.csv para Production
+🔹 Random Forest
+MAE: 95.15242683461123
+MSE: 1178601.3813184507
+R²: 0.9508406938187428
+----------------------------------------
+Especiaria: dados_Nutmeg, mace, cardamoms, raw.csv para Production
+🔹 SVM
+MAE: 657.8364197875011
+MSE: 24384031.295847792
+R²: -0.01705468821443601
+----------------------------------------
+Especiaria: dados_Chillies and peppers, green (Capsicum spp. and Pimenta spp.).csv para Import
+🔹 Regressão Linear
+MAE: 9227.01865929877
+MSE: 628357497.0159723
+R²: 0.88280374684565
+----------------------------------------
+Especiaria: dados_Chillies and peppers, green (Capsicum spp. and Pimenta spp.).csv para Import
+🔹 Árvore de Decisão
+MAE: 2884.3378400954657
+MSE: 260572841.77350312
+R²: 0.951400021684058
+----------------------------------------
+Especiaria: dados_Chillies and peppers, green (Capsicum spp. and Pimenta spp.).csv para Import
+🔹 Random Forest
+MAE: 2181.675490095466
+MSE: 76327700.81831187
+R²: 0.9857639630460795
+----------------------------------------
+Especiaria: dados_Chillies and peppers, green (Capsicum spp. and Pimenta spp.).csv para Import
+🔹 SVM
+MAE: 17183.29975295453
+MSE: 5650475505.958807
+R²: -0.05388184430617082
+----------------------------------------
+Especiaria: dados_Chillies and peppers, green (Capsicum spp. and Pimenta spp.).csv para Export
+🔹 Regressão Linear
+MAE: 10704.83246104192
+MSE: 1653155339.2574472
+R²: 0.7971410807933231
+----------------------------------------
+Especiaria: dados_Chillies and peppers, green (Capsicum spp. and Pimenta spp.).csv para Export
+🔹 Árvore de Decisão
+MAE: 2602.731420047732
+MSE: 124704977.25794187
+R²: 0.9846974350773339
+----------------------------------------
+Especiaria: dados_Chillies and peppers, green (Capsicum spp. and Pimenta spp.).csv para Export
+🔹 Random Forest
+MAE: 2250.6710408114586
+MSE: 81653492.93467276
+R²: 0.9899802886438863
+----------------------------------------
+Especiaria: dados_Chillies and peppers, green (Capsicum spp. and Pimenta spp.).csv para Export
+🔹 SVM
+MAE: 18849.45705367293
+MSE: 8503073540.567416
+R²: -0.04341332445454693
+----------------------------------------
+Especiaria: dados_Chillies and peppers, green (Capsicum spp. and Pimenta spp.).csv para Production
+🔹 Regressão Linear
+MAE: 123718.39857575767
+MSE: 243098118202.16922
+R²: 0.8928427973390208
+----------------------------------------
+Especiaria: dados_Chillies and peppers, green (Capsicum spp. and Pimenta spp.).csv para Production
+🔹 Árvore de Decisão
+MAE: 22122.402422434367
+MSE: 16692597347.247396
+R²: 0.9926419338409295
+----------------------------------------
+Especiaria: dados_Chillies and peppers, green (Capsicum spp. and Pimenta spp.).csv para Production
+🔹 Random Forest
+MAE: 17241.402083890214
+MSE: 6750464665.5977125
+R²: 0.9970244076113101
+----------------------------------------
+Especiaria: dados_Chillies and peppers, green (Capsicum spp. and Pimenta spp.).csv para Production
+🔹 SVM
+MAE: 266032.2257603879
+MSE: 2337923793743.1084
+R²: -0.030552501289663025
+----------------------------------------
+Especiaria: dados_Anise, badian, coriander, cumin, caraway, fennel and juniper berries, raw.csv para Import
+🔹 Regressão Linear
+MAE: 1566.7231336683265
+MSE: 29025033.240658317
+R²: 0.46116906967503113
+----------------------------------------
+Especiaria: dados_Anise, badian, coriander, cumin, caraway, fennel and juniper berries, raw.csv para Import
+🔹 Árvore de Decisão
+MAE: 505.3164383561644
+MSE: 4879997.865059641
+R²: 0.9094060024733909
+----------------------------------------
+Especiaria: dados_Anise, badian, coriander, cumin, caraway, fennel and juniper berries, raw.csv para Import
+🔹 Random Forest
+MAE: 570.6620732349844
+MSE: 7236807.494281891
+R²: 0.8656533592091014
+----------------------------------------
+Especiaria: dados_Anise, badian, coriander, cumin, caraway, fennel and juniper berries, raw.csv para Import
+🔹 SVM
+MAE: 2203.7006997257304
+MSE: 58070045.14643114
+R²: -0.07803275161915857
+----------------------------------------
+Especiaria: dados_Anise, badian, coriander, cumin, caraway, fennel and juniper berries, raw.csv para Export
+🔹 Regressão Linear
+MAE: 1027.9149998092778
+MSE: 14676730.553702874
+R²: 0.8351384311465616
+----------------------------------------
+Especiaria: dados_Anise, badian, coriander, cumin, caraway, fennel and juniper berries, raw.csv para Export
+🔹 Árvore de Decisão
+MAE: 428.3588303477344
+MSE: 6610542.234284195
+R²: 0.9257447454166794
+----------------------------------------
+Especiaria: dados_Anise, badian, coriander, cumin, caraway, fennel and juniper berries, raw.csv para Export
+🔹 Random Forest
+MAE: 420.78222687039
+MSE: 6716593.394619633
+R²: 0.9245534882352756
+----------------------------------------
+Especiaria: dados_Anise, badian, coriander, cumin, caraway, fennel and juniper berries, raw.csv para Export
+🔹 SVM
+MAE: 1674.231057187002
+MSE: 91758229.5484981
+R²: -0.03070677922630005
+----------------------------------------
+Especiaria: dados_Anise, badian, coriander, cumin, caraway, fennel and juniper berries, raw.csv para Production
+🔹 Regressão Linear
+MAE: 6291.582636095762
+MSE: 514392026.5742524
+R²: 0.5498412581183871
+----------------------------------------
+Especiaria: dados_Anise, badian, coriander, cumin, caraway, fennel and juniper berries, raw.csv para Production
+🔹 Árvore de Decisão
+MAE: 948.3989251844046
+MSE: 35476443.37713719
+R²: 0.968953579581232
+----------------------------------------
+Especiaria: dados_Anise, badian, coriander, cumin, caraway, fennel and juniper berries, raw.csv para Production
+🔹 Random Forest
+MAE: 1010.6056056902003
+MSE: 86174092.03316143
+R²: 0.9245866598850971
+----------------------------------------
+Especiaria: dados_Anise, badian, coriander, cumin, caraway, fennel and juniper berries, raw.csv para Production
+🔹 SVM
+MAE: 4679.27483928699
+MSE: 1164431160.2048743
+R²: -0.019026032686585426
+----------------------------------------
+
+# Relatório de Destaque dos Algoritmos por Especiaria e Tipo (Baseado no Maior R²)
+
+A tabela abaixo apresenta o algoritmo que mais se destacou (maior R²) para cada combinação de especiaria e tipo de previsão (Importação, Exportação, Produção), com base nos resultados do benchmark.
+
+| Especiaria | Importação | Exportação | Produção |
+|---|---|---|---|
+| Canela e flores de caneleira | Random Forest | Árvore de Decisão | Árvore de Decisão |
+| Gengibre | Random Forest | Árvore de Decisão | Random Forest |
+| Pimentas secas (Capsicum/Pimenta) | Random Forest | Árvore de Decisão | Random Forest |
+| Baunilha | Random Forest | Random Forest | Árvore de Decisão |
+| Cravo (talos inteiros) | Random Forest | Random Forest | Random Forest |
+| Pimenta (Piper spp.) | Random Forest | Random Forest | Random Forest |
+| Noz-moscada, macis e cardamomos | Random Forest | Random Forest | Random Forest |
+| Pimentas verdes (Capsicum/Pimenta) | Random Forest | Random Forest | Random Forest |
+| Anis, badiana, coentro, cominho, alcaravia, funcho e zimbro | Árvore de Decisão | Árvore de Decisão | Árvore de Decisão |
+
+**Critério:** O algoritmo destacado é o que apresentou o maior valor de R² (coeficiente de determinação) para cada caso.
+
+**Observações:**
+- O Random Forest foi o algoritmo mais consistente, apresentando o melhor desempenho na maioria das combinações.
+- Em alguns casos, a Árvore de Decisão se destacou, especialmente em Exportação e Produção para Canela, e em todas as previsões para o grupo de Anis, Badiana, etc.
+- SVM apresentou desempenho inferior em todos os cenários.
+
+
+
+-- RESULTADOS DE IMPORTAÇÃO PÓS ADIÇÃO DE HIPERPARÂMETROS, APENAS PARA IMPORTAÇÃO:
+
+### Treinando para dados_Cinnamon and cinnamon-tree flowers, raw.csv ###
+Melhores hiperparâmetros: {'max_depth': None, 'min_samples_split': 2, 'n_estimators': 200}
+R² no teste: 0.9448106453800744
+MAE: 182.68923456989253
+MSE: 437570.06198830606
+
+### Treinando para dados_Ginger, raw.csv ###
+Melhores hiperparâmetros: {'max_depth': None, 'min_samples_split': 2, 'n_estimators': 100}
+R² no teste: 0.9592683272601221
+MAE: 570.5602137430168
+MSE: 4759948.716308412
+
+### Treinando para dados_Chillies and peppers, dry (Capsicum spp., Pimenta spp.), raw.csv ###
+Melhores hiperparâmetros: {'max_depth': None, 'min_samples_split': 2, 'n_estimators': 200}
+R² no teste: 0.9486404806066241
+MAE: 625.3008235789475
+MSE: 6851518.459208093
+
+### Treinando para dados_Vanilla, raw.csv ###
+Melhores hiperparâmetros: {'max_depth': None, 'min_samples_split': 2, 'n_estimators': 200}
+R² no teste: 0.9277704828251055
+MAE: 10.416954502369663
+MSE: 1594.7418538972072
+
+### Treinando para dados_Cloves (whole stems), raw.csv ###
+Melhores hiperparâmetros: {'max_depth': None, 'min_samples_split': 2, 'n_estimators': 100}
+R² no teste: 0.7369514875185742
+MAE: 161.74695
+MSE: 985902.9184451154
+
+### Treinando para dados_Pepper (Piper spp.), raw.csv ###
+Melhores hiperparâmetros: {'max_depth': None, 'min_samples_split': 2, 'n_estimators': 100}
+R² no teste: 0.9803375180114591
+MAE: 350.31660672514636
+MSE: 1018752.7083674298
+
+### Treinando para dados_Nutmeg, mace, cardamoms, raw.csv ###
+Melhores hiperparâmetros: {'max_depth': None, 'min_samples_split': 2, 'n_estimators': 100}
+R² no teste: 0.9086251571222768
+MAE: 115.73776265060243
+MSE: 205223.99371424687
+
+### Treinando para dados_Chillies and peppers, green (Capsicum spp. and Pimenta spp.).csv ###
+Melhores hiperparâmetros: {'max_depth': None, 'min_samples_split': 2, 'n_estimators': 200}
+R² no teste: 0.9842701646480164
+MAE: 2197.462495525064
+MSE: 84336825.65967649
+
+### Treinando para dados_Anise, badian, coriander, cumin, caraway, fennel and juniper berries, raw.csv ###
+Melhores hiperparâmetros: {'max_depth': None, 'min_samples_split': 2, 'n_estimators': 200}
+R² no teste: 0.861702832135625
+MAE: 570.9198494731297
+MSE: 7449609.271560364
+
+# Comparativo de R² Antes e Pós-Refinamento (Importação)
+
+A tabela abaixo compara o melhor R² obtido antes e após o ajuste de hiperparâmetros para cada especiaria (Importação), mostrando a evolução do desempenho dos modelos.
+
+| Especiaria                                               | R² Antes (Melhor Algoritmo) | R² Pós-Refino | Evolução   |
+|----------------------------------------------------------|-----------------------------|--------------|------------|
+| Canela e flores de caneleira                            | 0.9413                      | 0.9448       | ▲ +0.0035  |
+| Gengibre                                                | 0.9573                      | 0.9593       | ▲ +0.0020  |
+| Pimentas secas (Capsicum/Pimenta)                       | 0.9494                      | 0.9486       | ▼ -0.0008  |
+| Baunilha                                                | 0.9304                      | 0.9278       | ▼ -0.0026  |
+| Cravo (talos inteiros)                                  | 0.7381                      | 0.7370       | ▼ -0.0011  |
+| Pimenta (Piper spp.)                                    | 0.9810                      | 0.9803       | ▼ -0.0007  |
+| Noz-moscada, macis e cardamomos                         | 0.8771                      | 0.9086       | ▲ +0.0315  |
+| Pimentas verdes (Capsicum/Pimenta)                      | 0.9858                      | 0.9843       | ▼ -0.0015  |
+| Anis, badiana, coentro, cominho, alcaravia, funcho, etc | 0.9094                      | 0.8617       | ▼ -0.0477  |
+
+**Legenda:**  
+▲: Melhora no R²  
+▼: Queda no R²
+
+**Observações:**
+- Houve leve melhora no R² para Canela, Gengibre e Noz-moscada, macis e cardamomos, sendo este último o que mais evoluiu (+0.0315).
+- Para a maioria das especiarias, o R² manteve-se estável, com variações pequenas.
+- Em alguns casos, houve pequena redução no R² após o ajuste de hiperparâmetros.
