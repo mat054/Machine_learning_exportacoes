@@ -1,0 +1,22 @@
+artifact_path: /home/mateus/Documentos/IA/Machine_learning_exportacoes/mlruns/1/models/m-d44a3d68422b491994af069a658324a6/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.12.3
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.6.1
+mlflow_version: 3.1.0
+model_id: m-d44a3d68422b491994af069a658324a6
+model_size_bytes: 6458301
+model_uuid: m-d44a3d68422b491994af069a658324a6
+prompts: null
+run_id: 02c497e13be043eda868f4f0b27c076d
+utc_time_created: '2025-06-25 02:46:51.524026'

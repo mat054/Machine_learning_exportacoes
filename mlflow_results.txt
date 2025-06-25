@@ -1,0 +1,108 @@
+RESULTADOS DO MLFLOW EXPERIMENT
+==================================================
+
+BENCHMARK RESULTS:
+--------------------
+
+dados_Cinnamon and cinnamon-tree flowers, raw.csv:
+  Import: RandomForestRegressor (R² = 0.9444)
+  Export: RandomForestRegressor (R² = 0.9722)
+  Production: DecisionTreeRegressor (R² = 0.9801)
+
+dados_Ginger, raw.csv:
+  Import: RandomForestRegressor (R² = 0.9593)
+  Export: DecisionTreeRegressor (R² = 0.9853)
+  Production: RandomForestRegressor (R² = 0.9511)
+
+dados_Chillies and peppers, dry (Capsicum spp., Pimenta spp.), raw.csv:
+  Import: RandomForestRegressor (R² = 0.9501)
+  Export: DecisionTreeRegressor (R² = 0.9677)
+  Production: RandomForestRegressor (R² = 0.9399)
+
+dados_Vanilla, raw.csv:
+  Import: RandomForestRegressor (R² = 0.9275)
+  Export: RandomForestRegressor (R² = 0.8670)
+  Production: RandomForestRegressor (R² = 0.9684)
+
+dados_Cloves (whole stems), raw.csv:
+  Import: RandomForestRegressor (R² = 0.7370)
+  Export: RandomForestRegressor (R² = 0.8637)
+  Production: RandomForestRegressor (R² = 0.9783)
+
+dados_Pepper (Piper spp.), raw.csv:
+  Import: RandomForestRegressor (R² = 0.9803)
+  Export: DecisionTreeRegressor (R² = 0.9621)
+  Production: RandomForestRegressor (R² = 0.9780)
+
+dados_Nutmeg, mace, cardamoms, raw.csv:
+  Import: RandomForestRegressor (R² = 0.9086)
+  Export: RandomForestRegressor (R² = 0.9830)
+  Production: RandomForestRegressor (R² = 0.9543)
+
+dados_Chillies and peppers, green (Capsicum spp. and Pimenta spp.).csv:
+  Import: RandomForestRegressor (R² = 0.9849)
+  Export: RandomForestRegressor (R² = 0.9909)
+  Production: RandomForestRegressor (R² = 0.9970)
+
+dados_Anise, badian, coriander, cumin, caraway, fennel and juniper berries, raw.csv:
+  Import: DecisionTreeRegressor (R² = 0.9180)
+  Export: RandomForestRegressor (R² = 0.9362)
+  Production: DecisionTreeRegressor (R² = 0.9707)
+
+
+REFINEMENT RESULTS:
+--------------------
+
+dados_Cinnamon and cinnamon-tree flowers, raw.csv:
+  Best Params: {'max_depth': None, 'min_samples_split': 2, 'n_estimators': 200}
+  R²: 0.9448
+  MAE: 182.69
+  MSE: 437570.06
+
+dados_Ginger, raw.csv:
+  Best Params: {'max_depth': None, 'min_samples_split': 2, 'n_estimators': 100}
+  R²: 0.9593
+  MAE: 570.56
+  MSE: 4759948.72
+
+dados_Chillies and peppers, dry (Capsicum spp., Pimenta spp.), raw.csv:
+  Best Params: {'max_depth': None, 'min_samples_split': 2, 'n_estimators': 200}
+  R²: 0.9486
+  MAE: 625.30
+  MSE: 6851518.46
+
+dados_Vanilla, raw.csv:
+  Best Params: {'max_depth': None, 'min_samples_split': 2, 'n_estimators': 200}
+  R²: 0.9278
+  MAE: 10.42
+  MSE: 1594.74
+
+dados_Cloves (whole stems), raw.csv:
+  Best Params: {'max_depth': None, 'min_samples_split': 2, 'n_estimators': 100}
+  R²: 0.7370
+  MAE: 161.75
+  MSE: 985902.92
+
+dados_Pepper (Piper spp.), raw.csv:
+  Best Params: {'max_depth': None, 'min_samples_split': 2, 'n_estimators': 100}
+  R²: 0.9803
+  MAE: 350.32
+  MSE: 1018752.71
+
+dados_Nutmeg, mace, cardamoms, raw.csv:
+  Best Params: {'max_depth': None, 'min_samples_split': 2, 'n_estimators': 100}
+  R²: 0.9086
+  MAE: 115.74
+  MSE: 205223.99
+
+dados_Chillies and peppers, green (Capsicum spp. and Pimenta spp.).csv:
+  Best Params: {'max_depth': None, 'min_samples_split': 2, 'n_estimators': 200}
+  R²: 0.9843
+  MAE: 2197.46
+  MSE: 84336825.66
+
+dados_Anise, badian, coriander, cumin, caraway, fennel and juniper berries, raw.csv:
+  Best Params: {'max_depth': None, 'min_samples_split': 2, 'n_estimators': 200}
+  R²: 0.8617
+  MAE: 570.92
+  MSE: 7449609.27
