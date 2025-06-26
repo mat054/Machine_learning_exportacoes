@@ -72,17 +72,6 @@ Com os modelos definidos e os dados preparados, iniciamos o processo de refiname
 
 * **Observação adicional**: Ressaltamos que uma tentativa anterior de refinamento havia sido realizada com o dataset completo, mas os resultados foram inferiores. O aprendizado obtido com esse erro foi essencial para orientar a nova abordagem.
 
-
-## Nosso objetivo:
-Ao longo da disciplina tivemos diversos debates sobre qual era realmente nosso objetivo com os dados e por fim decidimos que nosso obejtivo final era criar um modelo de previsao para importação para um determinado grupo de especiarias ao longo do tempo, podendo ser expandido para exportação e produção.
-
-Claro! Abaixo está a versão **reescrita da seção "Nosso Objetivo"**, considerando os dois pontos que você pediu:
-
-1. A escolha da **importação** como primeira etapa de um projeto que será expandido futuramente para exportação e produção;
-2. A predominância do **Random Forest** como o melhor algoritmo nos testes para previsão de importação, motivando sua escolha para todos os modelos.
-
----
-
 ## Nosso Objetivo
 
 Ao longo da disciplina, nossa equipe discutiu diversas abordagens possíveis para o desenvolvimento do projeto de aprendizado de máquina com dados de especiarias. Inicialmente, nosso objetivo era mais abrangente: queríamos explorar a previsão de três variáveis principais — **importação**, **exportação** e **produção** — de maneira simultânea. No entanto, ao aprofundarmos a análise dos dados e realizarmos os primeiros testes, percebemos que trabalhar com todas essas dimensões ao mesmo tempo poderia comprometer a qualidade das previsões e a clareza da metodologia.

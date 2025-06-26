@@ -1,16 +1,15 @@
-# AQUISIÇÃO DE DADOS: CONSUMO GLOBAL DE ESPECIARIAS
-## Mini Trabalho 2 - Aprendizado de Máquina
+# Modelo de Machine Learning para predição de Importação, Exportação ou Produão de Especeiarias
+
+## Aprendizado de Máquina
 
 ### Equipe
 - Daniela Soares de Oliveira - 180015222
 - Gabriel Freitas Balbino - 180075462
-- Giovanni Alvissus Camargo Giampauli - 211043647
 - Mateus de Castro Santos - 222015195
 - Pablo Santos Costa - 180128817
 - Pedro Lucas Dourado Santos - 211039680
 
 ## Descrição do Dataset
-
 
 Este projeto apresenta uma análise abrangente do consumo global de especiarias, compilada utilizando dados da FAOSTAT, coletados do Kaggle [aqui](https://www.kaggle.com/datasets/harishthakur995/global-spice-consumption). O consumo de especiarias é estimado aplicando a fórmula:
 
@@ -64,12 +63,18 @@ Este dataset é valioso para:
 
 Os dados utilizados neste projeto são de domínio público, fornecidos pela FAO para uso em pesquisa e análise. Não há questões de privacidade envolvidas, pois os dados referem-se a estatísticas agregadas de produção e comércio por país, sem informações pessoais.
 
-## Estrutura de Arquivos
+## Objetivo
 
-- `dados_especiarias.csv` - Dataset principal com todos os dados de consumo de especiarias
-- `analise_preliminar.ipynb` - Notebook Jupyter com análise exploratória inicial dos dados
-- `processamento.py` - Script Python utilizado para limpeza e preparação dos dados
-- `visualizacoes/` - Diretório contendo gráficos e visualizações gerados a partir dos dados
+Ao longo da disciplina, nossa equipe discutiu diversas abordagens possíveis para o desenvolvimento do projeto de aprendizado de máquina com dados de especiarias. Inicialmente, nosso objetivo era mais abrangente: queríamos explorar a previsão de três variáveis principais — **importação**, **exportação** e **produção** — de maneira simultânea. No entanto, ao aprofundarmos a análise dos dados e realizarmos os primeiros testes, percebemos que trabalhar com todas essas dimensões ao mesmo tempo poderia comprometer a qualidade das previsões e a clareza da metodologia.
+
+Diante disso, decidimos adotar uma estratégia mais focada e escalável: **começar prevendo apenas uma das colunas**, e, a partir dos aprendizados e da estrutura construída, **expandir o projeto futuramente para as outras variáveis**. Essa abordagem nos permitiria consolidar uma base sólida de desenvolvimento, com menor complexidade inicial e maior controle sobre as variáveis envolvidas.
+
+A variável escolhida para essa primeira fase foi a **importação**. A decisão foi motivada principalmente pelos **resultados empíricos obtidos nos testes de benchmark** realizados com os dados segmentados por especiaria.
+
+Com isso, o objetivo consolidado do projeto passou a ser:
+
+> Desenvolver um conjunto de modelos especializados, baseados em Random Forest, para prever a **importação** de cada uma das 9 especiarias ao longo do tempo, por país, servindo como a primeira fase de um projeto maior que poderá futuramente abranger também a previsão de exportações e produção.
+
 
 ## Instruções de Uso
 
@@ -79,36 +84,35 @@ Os dados utilizados neste projeto são de domínio público, fornecidos pela FAO
    - Matplotlib 3.4+
    - Seaborn 0.11+
    - Jupyter Notebook (opcional para execução do arquivo de análise)
+   - MlFlow 
 
 2. **Instalação de Dependências**:
    ```
    pip install -r requirements.txt
+   pip install -r requirements_mlflow.txt
    ```
 
 3. **Carregamento dos Dados**:
-   ```python
-   import pandas as pd
-   dados = pd.read_csv('dados_especiarias.csv')
+   ```bash
+   mlflow ui --backend-store-uri sqlite:///mlflow.db --port 5001
+   ```
+   backend sendo hospedado em http://localhost:5001
+
+4. **Executar experimentos**:
+   ```bash
+   python mlflow.py
+   ```
+5. **Iniciar interface web**:
+   ```bash
+   mlflow ui
    ```
 
-4. **Exemplo de Análise Básica**:
-   ```python
-   # Visualizar estatísticas descritivas
-   print(dados.describe())
-   
-   # Consumo por país (top 10)
-   consumo_por_pais = dados.groupby('Pais')['Consumo_Estimado'].sum().sort_values(ascending=False).head(10)
-   print(consumo_por_pais)
-   ```
 
-## Problemas Conhecidos e Limitações
+## Links úteis relacionados ao projeto
+**[Código de Conduta](https://github.com/mat054/Machine_learning_exportacoes/blob/main/CODE_OF_CONDUCT.md)**
 
-- Alguns países podem ter dados incompletos para determinados anos
-- A fórmula de consumo assume que não há armazenamento significativo entre anos
-- Dados anteriores a 2000 podem ter menor confiabilidade devido a métodos de coleta menos precisos
+**[Guia de contribuição](https://github.com/mat054/Machine_learning_exportacoes/blob/main/CONTRIBUTING.md)**
 
-## Futuras Melhorias
+**[Linceça](https://github.com/mat054/Machine_learning_exportacoes/blob/main/LICENSE)**
 
-- Incorporação de dados demográficos para análise per capita
-- Inclusão de dados de preço para análise econômica mais abrangente
-- Expansão para incluir mais variedades de especiarias 
+**[Entregas Feitas](Entregas)

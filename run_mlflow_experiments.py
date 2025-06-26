@@ -1,9 +1,3 @@
-#!/usr/bin/env python3
-"""
-Script wrapper para executar experimentos MLflow
-Baseado no miniTrabalho7.ipynb
-"""
-
 import subprocess
 import sys
 import os
@@ -16,9 +10,9 @@ def install_requirements():
         subprocess.check_call([
             sys.executable, "-m", "pip", "install", "-r", "requirements_mlflow.txt"
         ])
-        print("✅ Dependências instaladas com sucesso!")
+        print(" Dependências instaladas com sucesso!")
     except subprocess.CalledProcessError as e:
-        print(f"❌ Erro ao instalar dependências: {e}")
+        print(f" Erro ao instalar dependências: {e}")
         return False
     return True
 
@@ -27,10 +21,10 @@ def run_experiments():
     print("Executando experimentos MLflow...")
     try:
         subprocess.check_call([sys.executable, "spice_mlflow_experiments.py"])
-        print("✅ Experimentos executados com sucesso!")
+        print(" Experimentos executados com sucesso!")
         return True
     except subprocess.CalledProcessError as e:
-        print(f"❌ Erro ao executar experimentos: {e}")
+        print(f" Erro ao executar experimentos: {e}")
         return False
 
 def start_mlflow_ui():
@@ -44,7 +38,7 @@ def start_mlflow_ui():
     except KeyboardInterrupt:
         print("\nServidor MLflow parado.")
     except Exception as e:
-        print(f"❌ Erro ao iniciar MLflow UI: {e}")
+        print(f" Erro ao iniciar MLflow UI: {e}")
 
 def main():
     """Função principal"""
@@ -54,7 +48,7 @@ def main():
     
     # Verifica se estamos no diretório correto
     if not Path("datasets").exists():
-        print("❌ Diretório 'datasets' não encontrado!")
+        print(" Diretório 'datasets' não encontrado!")
         print("Certifique-se de estar no diretório correto.")
         return
     
@@ -74,8 +68,8 @@ def main():
         
         elif choice == "2":
             if run_experiments():
-                print("\n📊 Resultados salvos em 'mlflow_results.txt'")
-                print("📈 Para visualizar detalhes, execute a opção 3")
+                print("\n Resultados salvos em 'mlflow_results.txt'")
+                print(" Para visualizar detalhes, execute a opção 3")
         
         elif choice == "3":
             start_mlflow_ui()
@@ -83,8 +77,8 @@ def main():
         elif choice == "4":
             if install_requirements():
                 if run_experiments():
-                    print("\n📊 Resultados salvos em 'mlflow_results.txt'")
-                    print("📈 Iniciando MLflow UI...")
+                    print("\n Resultados salvos em 'mlflow_results.txt'")
+                    print(" Iniciando MLflow UI...")
                     start_mlflow_ui()
         
         elif choice == "5":
@@ -92,7 +86,7 @@ def main():
             break
         
         else:
-            print("❌ Opção inválida!")
+            print(" Opção inválida!")
 
 if __name__ == "__main__":
     main() 
