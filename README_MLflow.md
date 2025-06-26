@@ -2,7 +2,7 @@
 
 Este projeto implementa uma integração completa com MLflow baseada no `miniTrabalho7.ipynb`, permitindo rastreamento, versionamento e comparação de experimentos de machine learning para predição de dados de especiarias.
 
-## 📋 Estrutura do Projeto
+## Estrutura do Projeto
 
 ```
 Machine_learning_exportacoes/
@@ -15,7 +15,7 @@ Machine_learning_exportacoes/
 └── mlflow.db                  # Banco de dados SQLite do MLflow (criado automaticamente)
 ```
 
-## 🚀 Como Executar
+## Como Executar
 
 ### Opção 1: Script Interativo (Recomendado)
 ```bash
@@ -41,7 +41,7 @@ python mlflow.py
 mlflow ui
 ```
 
-## 📊 Experimentos Implementados
+## Experimentos Implementados
 
 ### 1. Benchmark de Modelos
 Para cada especiaria e target (Import, Export, Production), testa:
@@ -65,17 +65,17 @@ Para cada especiaria (target: Import), executa:
   - `max_depth`: [None, 10, 20]
   - `min_samples_split`: [2, 5]
 
-## 🔍 Visualizando Resultados
+## Visualizando Resultados
 
 ### Interface Web MLflow
 Após executar os experimentos, acesse: `http://localhost:5000`
 
 **Recursos disponíveis:**
-- 📈 Comparação de métricas entre experimentos
-- 🔍 Filtros por parâmetros e métricas
-- 📊 Gráficos de evolução de métricas
-- 💾 Download de modelos treinados
-- 📝 Logs detalhados de cada execução
+- Comparação de métricas entre experimentos
+- Filtros por parâmetros e métricas
+- Gráficos de evolução de métricas
+- Download de modelos treinados
+- Logs detalhados de cada execução
 
 ### Arquivo de Resultados
 O script gera `mlflow_results.txt` com:
@@ -83,7 +83,7 @@ O script gera `mlflow_results.txt` com:
 - Comparação de performance antes/depois do refinamento
 - Hiperparâmetros otimizados
 
-## 📁 Estrutura dos Dados
+## Estrutura dos Dados
 
 ### Pré-processamento
 - Remoção de outliers (colunas `is_outlier_*`)
@@ -97,7 +97,7 @@ O script gera `mlflow_results.txt` com:
 - **Item**: Tipo de especiaria (one-hot encoded)
 - **Targets**: Import, Export, Production
 
-## 🎯 Especiarias Analisadas
+## Especiarias Analisadas
 
 1. **Canela e flores de caneleira**
 2. **Gengibre**
@@ -109,7 +109,7 @@ O script gera `mlflow_results.txt` com:
 8. **Pimentas verdes (Capsicum/Pimenta)**
 9. **Anis, badiana, coentro, cominho, alcaravia, funcho e zimbro**
 
-## 📈 Principais Descobertas (do miniTrabalho7)
+## Principais Descobertas (do miniTrabalho7)
 
 ### Benchmark Results
 - **Random Forest** foi o algoritmo mais consistente
@@ -121,7 +121,7 @@ O script gera `mlflow_results.txt` com:
 - Estabilidade para maioria das especiarias
 - Hiperparâmetros otimizados variam por dataset
 
-## 🛠️ Dependências
+## Dependências
 
 - `mlflow>=2.8.0` - Rastreamento de experimentos
 - `pandas>=1.5.0` - Manipulação de dados
@@ -131,13 +131,13 @@ O script gera `mlflow_results.txt` com:
 - `matplotlib>=3.7.0` - Visualização
 - `seaborn>=0.12.0` - Visualização estatística
 
-## 🔧 Configuração MLflow
+## Configuração MLflow
 
 - **Tracking URI**: `sqlite:///mlflow.db` (banco local)
 - **Experiment**: `spice_prediction_models`
 - **Runs**: Organizados por especiaria, target e modelo
 
-## 📝 Logs e Rastreamento
+## Logs e Rastreamento
 
 Cada experimento registra:
 - **Parâmetros**: Configurações do modelo e dados
@@ -145,7 +145,7 @@ Cada experimento registra:
 - **Artefatos**: Modelos treinados
 - **Tags**: Metadados para organização
 
-## 🚨 Troubleshooting
+## Troubleshooting
 
 ### Erro: "Diretório 'datasets' não encontrado"
 - Certifique-se de estar no diretório `Machine_learning_exportacoes/`
@@ -158,7 +158,7 @@ Cada experimento registra:
 - Verifique se a porta 5000 está livre
 - Tente: `mlflow ui --port 5001`
 
-## 📞 Suporte
+## Suporte
 
 Para dúvidas ou problemas:
 1. Verifique se todas as dependências estão instaladas
