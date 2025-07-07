@@ -115,4 +115,4 @@ Com isso, o objetivo consolidado do projeto passou a ser:
 
 **[Linceça](https://github.com/mat054/Machine_learning_exportacoes/blob/main/LICENSE)**
 
-**[Entregas Feitas](Entregas)
+**[Entregas Feitas](Entregas)**
